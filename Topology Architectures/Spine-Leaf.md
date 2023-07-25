@@ -1,0 +1,15 @@
+The original 3-tier and 2-tier architectures work great for cloud providers and small offices (respectively): they provide redundancy, are scalable and are fast. However, when using 3-tier architecture, the number of switching devices and routing hops a frame needs to arrive at a destination are fairly high: for any given frame with a destination that is not on the same access layer switch, the minimum number of hops is two. This is ideal, but not all equipment will be connected to the same distribution layer switch and, accounting to the fact that only complex networks make use of 3-tier, it’s safe to assume that the number of devices a packet needs to travel to arrive at a destination, even on the same network, can vary a lot, going anywhere between two and 10 hops, for example.
+
+This can be a problem: as more cloud services and servers are dependent on each other, this can stack up latency and can become a problem for large enterprises LANs. To account for this, Cisco’s new devices are capable of an architecture called the Spine-Leaf architecture.
+
+This is similar to the 2-tier collapsed core architecture, the difference being on the devices used (as for this, the devices need to support some new technologies) and the fact that the distribution layer now connects to user endpoints (this is *basically* how this looks, as in spine-leaf we do not have distribution, access and core layers).
+
+The architecture consists of a Spine layer, which is similar to the core layer and takes the role of being the bulk of networking routing through the LAN and responsible for fast delivery of packets between networks. All Spine nodes have a connection to each one of the Leaf switches (as in, each leaf switch has a connection to all spine switches), and the leaf switches, in turn, are used to join endpoints to the network. The “leaf layer” can be divided into “tier-1 leaf” and “tier-2 leaf”.
+
+This separation of leaf tiers is because of building costs. As optimal as it would be to have a connection from each leaf to the spine, sometimes the physical distance from the leaf to the spine can cause problems. According to ISO standards, RJ-45 copper cabling can only be 100m long, and fiber-LAN cabling can be very expensive. For this matter using a “tier-1 leaf and tier-2 leaf” can be better. It also gives the controllers a more granular control of the network. Tier-2 leaves are connected to tier-1 leaves through Fabric Ports, same for tier-1 leaf and spine node links.
+
+Spine-Leaf architecture also brings VXLAN to the table: a way to create a virtual tunnel in which it is possible to have physically apart networks become one virtual subnet (called VNID – Virtual Network Identification). This can extend broadcast domains through the layer 3 by encapsulating requests from one VNID and forwarding these requests to the same VNID on other devices.
+
+The following images illustrates a Spine-Leaf architecture:
+
+![](https://lh3.googleusercontent.com/NjWX_KFjl8GHz88BNDho62ErdLlgws6N5v1ni4D7w_V2Bl_qSayAeR9VRdGB4HgwtrYovKoROcBf6iq-thKsYBnQUz7ssqZbtrIhCBoWfv4qUVxQroRuclEcqCsHnCermK9PU7nAwIIC7LTEm7kNpo4)

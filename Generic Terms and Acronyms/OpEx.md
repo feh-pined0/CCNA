@@ -1,0 +1,1 @@
+*Operational Expenditure* is any cost associated with an operational task. It can be compared to a renting system. An example would be an internet connection monthly fee, where the capital acquired is a service that is bound to some business operation and is a regular cost for the company.

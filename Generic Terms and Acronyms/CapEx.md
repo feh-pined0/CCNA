@@ -1,0 +1,1 @@
+*Capital expenditure* is any expense a company might have when acquiring capitals. These capitals can be anything that the company may need for their business such as equipment, furniture, commercial rooms or offices (not rented), etc.
