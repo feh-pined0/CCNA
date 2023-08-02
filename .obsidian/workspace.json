@@ -4,37 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "ac1945db71acfcc8",
+        "id": "1fd8f35355a85f9b",
         "type": "tabs",
-        "dimension": 74.75961538461539,
+        "dimension": 70.25240384615384,
         "children": [
           {
-            "id": "50a13eab2aca9f5c",
+            "id": "6ca921bd69db491f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physical Interfaces and Cabling Types/Single-Mode Fiber, Multi-Mode Fiber and Copper.md",
+                "file": "Physical Interfaces and Cabling Types/Ethernet Shared Media and P2P.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "90e800359f9e8df3"
+            "group": "1d86a22defda498f"
           }
         ]
       },
       {
-        "id": "35fa9f8c49177fec",
+        "id": "bea3610ceb076072",
         "type": "tabs",
-        "dimension": 25.240384615384613,
+        "dimension": 29.747596153846157,
         "children": [
           {
-            "id": "2157288543ffa297",
+            "id": "6b8905e358e7e3ec",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Physical Interfaces and Cabling Types/Single-Mode Fiber, Multi-Mode Fiber and Copper.md",
+                "file": "Physical Interfaces and Cabling Types/Ethernet Shared Media and P2P.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -62,7 +62,7 @@
                 }
               }
             },
-            "group": "90e800359f9e8df3"
+            "group": "1d86a22defda498f"
           }
         ]
       }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physical Interfaces and Cabling Types/Single-Mode Fiber, Multi-Mode Fiber and Copper.md",
+                "file": "Physical Interfaces and Cabling Types/Ethernet Shared Media and P2P.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physical Interfaces and Cabling Types/Single-Mode Fiber, Multi-Mode Fiber and Copper.md",
+                "file": "Physical Interfaces and Cabling Types/Ethernet Shared Media and P2P.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physical Interfaces and Cabling Types/Single-Mode Fiber, Multi-Mode Fiber and Copper.md"
+                "file": "Physical Interfaces and Cabling Types/Ethernet Shared Media and P2P.md"
               }
             }
           }
@@ -191,43 +191,39 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "6b8905e358e7e3ec",
-=======
-  "active": "50a13eab2aca9f5c",
->>>>>>> f2d5cd51b7f533cd488e61e7fa1ced05531335c8
+  "active": "6ca921bd69db491f",
   "lastOpenFiles": [
-    "Topology Architectures/2 Tier Archtecture.md",
-    "Topology Architectures/3 Tier Architecture.md",
-    "Role and Function of Net Components/Switches.md",
-    "Role and Function of Net Components/Servers.md",
-    "Role and Function of Net Components/Routers.md",
-    "Role and Function of Net Components/NGFW and IPS (Firewall).md",
-    "Role and Function of Net Components/Endpoints.md",
-    "Role and Function of Net Components/Controllers (WLC & Cisco DNA Center).md",
-    "Role and Function of Net Components/Access Points.md",
-    "Topology Architectures/Spine-Leaf.md",
     "Physical Interfaces and Cabling Types/Single-Mode Fiber, Multi-Mode Fiber and Copper.md",
-    "Topology Architectures/On Premises and Cloud.md",
-    "Generic Terms and Acronyms/Virtual Machine.md",
-    "Generic Terms and Acronyms/Attenuation.md",
-    "Generic Terms and Acronyms/CapEx.md",
-    "Generic Terms and Acronyms/Hypervisor.md",
+    "Physical Interfaces and Cabling Types/Ethernet Shared Media and P2P.md",
     "Image Bank/Pasted image 20230724211614.png",
     "Image Bank/Pasted image 20230724210639.png",
-    "Physical Interfaces and Cabling Types/Ethernet Shared Media and P2P.md",
     "Image Bank/Pasted image 20230724181009.png",
     "Image Bank/Pasted image 20230724173048.png",
     "Image Bank",
+    "Generic Terms and Acronyms/Hypervisor.md",
+    "Topology Architectures/On Premises and Cloud.md",
+    "Role and Function of Net Components/Routers.md",
+    "Role and Function of Net Components/NGFW and IPS (Firewall).md",
     "Topology Architectures/SOHO (Small Office Home Office).md",
+    "Topology Architectures/3 Tier Architecture.md",
+    "Topology Architectures/2 Tier Archtecture.md",
+    "Generic Terms and Acronyms/Attenuation.md",
     "Physical Interfaces and Cabling Types/Single Mode Fiber.md",
     "Physical Interfaces and Cabling Types/Multi Mode Fiber.md",
     "Physical Interfaces and Cabling Types",
     "Generic Terms and Acronyms/OpEx.md",
+    "Generic Terms and Acronyms/CapEx.md",
+    "Generic Terms and Acronyms/Virtual Machine.md",
     "Topology Architectures/NIST document describing cloud services date from 2011.md",
     "Generic Terms and Acronyms",
     "Topology Architectures/WAN (Wide Area Network).md",
+    "Topology Architectures/Spine-Leaf.md",
     "Topology Architectures",
+    "Role and Function of Net Components/Servers.md",
+    "Role and Function of Net Components/Endpoints.md",
+    "Role and Function of Net Components/Controllers (WLC & Cisco DNA Center).md",
+    "Role and Function of Net Components/Access Points.md",
+    "Role and Function of Net Components/Switches.md",
     "router.md",
     "Role and Function of Network Components.md",
     "Role and Function of Net Components"
