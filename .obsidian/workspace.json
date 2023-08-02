@@ -58,7 +58,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 1,
-                  "close": false
+                  "close": true
                 }
               }
             },
@@ -191,7 +191,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7aff11b7b782e8ca",
+  "active": "6b8905e358e7e3ec",
   "lastOpenFiles": [
     "Image Bank/Pasted image 20230724211614.png",
     "Image Bank/Pasted image 20230724210639.png",
