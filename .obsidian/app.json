@@ -2,5 +2,8 @@
   "promptDelete": false,
   "attachmentFolderPath": "./",
   "newFileLocation": "current",
-  "autoConvertHtml": true
+  "autoConvertHtml": true,
+  "spellcheckLanguages": [
+    "en-US"
+  ]
 }
