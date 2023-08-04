@@ -3,7 +3,5 @@
   "attachmentFolderPath": "./",
   "newFileLocation": "current",
   "autoConvertHtml": true,
-  "spellcheckLanguages": [
-    "en-US"
-  ]
+  "spellcheckLanguages": null
 }

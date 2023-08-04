@@ -1,0 +1,3 @@
+Hexadecimal is a number base that consists of sixteen digits $[0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F]$. So for example, the decimal number $10$ (ten) could be expressed, in hexadecimal, as $F$ and $10$ in hexadecimal would be $16$ in decimal.
+
+Also, when talking about hexadecimals, it is great to remember that, in computer science, hexadecimals were used because larger numbers can be expressed in a more concise way than octal or decimal. Each hexadecimal number consists of four bits. So, if we were to write the hexadecimal number $10$ in binary, we would need 8 bits or 1 byte (4 for each hexadecimal digit), so it would be $00010000$.
