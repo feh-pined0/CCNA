@@ -12,7 +12,7 @@ FastEthernet0/1/0  unassigned      YES  unset   down    down
 Serial0/0/0        172.16.0.254    YES  unset   up      down
 ```
 
-- `ip address [ipv4 addr [CIDR netmask]] [subnet mask] | dhcp` - sets the IP address and method of the interface. If and address and mask comes after the `ip address` command, the address is configured. If `dhcp` is inputted instead, the interface gets an IP leased from the DHCP server on the network.
+- `ip address [ipv4 addr [CIDR netmask]] [subnet mask] | dhcp` - sets the IP address and method of the interface. If an address and mask comes after the `ip address` command, the address is configured. If `dhcp` is inputted instead, the interface gets an IP leased from the DHCP server on the network.
 Example:
 
 ```IOS

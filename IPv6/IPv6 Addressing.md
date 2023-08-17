@@ -1,3 +1,4 @@
+(This covers basic IPv6 Addressing principles and manual operation)
 With the IPv4 exhaustion, IPv6 is the long term solution for the problem. Although things like [[NAT]] and [[VLSM]] were helpful to mitigate the problem, they do not solve it completely.
 
 IPv6 has a lot in common with [[IPv4 Addressing|IPv4]]: both are layer 3 (network/internet) addresses used in routing protocols. Both have a network prefix followed by a host identifier and both need to be interpreted in binary in order for it to make sense in configuration. The main difference between them is size of the address (in bytes): while IPv4 has 8 bytes (32 bits), IPv6 has 16 bytes (64 bits). This greatly increases the number of available addresses for allocation and thus solves our problem.

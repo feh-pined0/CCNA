@@ -1,0 +1,1 @@
+The *Stateless Address Auto-Configuration* is an IPv6 interface configuration method for discovering the network prefix and setting the host identifier. It uses [[NDP]] for discovering the network prefix, and [[EUI-64]] to configure the host id part. On Cisco devices, it can be issued on the interface with the command `ipv6 address autoconfig`.
