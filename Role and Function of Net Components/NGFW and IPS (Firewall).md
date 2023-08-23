@@ -1,9 +1,0 @@
-A firewall device is a network security component which applies many methods to minimize security errors and flaws in the network. Firewalls generally sit between a trusted network and the internet or another, untrusted network and are divided into standard, “classic” firewalls and next-generation firewalls (NGFW). The difference between the two lies on the available features they provide: while a standard firewall generally acts as a layer 3 and layer 2 device, filtering packets and frames based on source and destination IPs and MAC addresses, a NGFW operates up to layer 7 of the OSI stack, analyzing PDUs for many defined rules that can inspect PDU user data, sessions, protocol options, common attack patterns and much more.
-
-Firewall activity in a network can be varied, and include:
-
-- Routing: as firewalls generally sit between LAN and WAN, they usually are used as a last resource gateway. Newer firewalls can perform many [[Routers|router]]-like activities.  
-- Packet-filtering: A firewall can analyze and filter packets (and other PDUs) and drop or allow these packets to go through its interfaces, based on various parameters, like ACLs (Access Control Lists).  
-- IPS and IDS: NGFWs usually have IPS (Intrusion Prevention System) and/or IDS (Intrusion Detection System) integrated in software. These systems do deep PDU analysis to match attack patterns (Cisco calls them “signatures”) and do event-actions based on predefined rules. These can inspect PDUs up to layer 7 data. 
-
-Firewalls are security-specialized devices that can analyze PDUs and either drop or allow them into an interface or network. Firewalls also do many router activities (like NAT or IP routing).

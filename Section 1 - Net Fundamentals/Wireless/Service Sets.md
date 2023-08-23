@@ -20,3 +20,8 @@ Some implementations of these types of service sets are:
 - **MBSS** (*Mesh Basic Service Set*): here multiple APs (**MAPs** *Mesh Access Points*) connect to each other directly, forming a "mesh" of wireless connectivity. This mesh is then connected by a single AP (the **RAP** *Root Access Point*) to a wired network which serves as the backbone of the wireless net. APs in mesh networking need to have at least two radios: one to connect to end clients, and one to connect to the mesh.
     
     ![[Pasted image 20230817203342.png]]
+
+The following 802.11 standards are defined:
+
+![[Pasted image 20230823160644.png]]
+

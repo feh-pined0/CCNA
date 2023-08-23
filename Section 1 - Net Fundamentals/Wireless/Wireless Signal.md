@@ -2,6 +2,6 @@ Wireless signals (also called radio frequencies) are what transport data over no
 
 Wireless signals can be degraded by:
 
-- **Signal range**: different frequencies have different wavelengths. This relation is inversely proportional, meaning that the higher the frequency, the lower the wavelength. The shorter the wavelength, the shorter the signal range.
+- **Signal range**: different frequencies have different wavelengths. This relation is inversely proportional, meaning that the higher the frequency, the shorter the wavelength. The shorter the wavelength, the shorter the signal range.
 - **Signal traversal**: when traversing different bodies, radio frequencies suffer from **absorption** (the body transforms the frequency into heat), **reflection** (the body reflects the signal, making it difficult to reach the other side of the body), **refraction** (when the body makes the frequency travel at a different speed than in the air, causing frequency bends and latency), **diffraction** (when the frequency cannot go through the body and must travel around it) and **scattering** (when a material makes the frequency scatter in all directions).
 - **Signal overlapping**: when multiple devices are using the same frequency ranges and channels, they can interfere with each other, causing signal degradation.

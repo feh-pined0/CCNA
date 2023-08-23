@@ -1,0 +1,3 @@
+*Encryption* is the act of using a defined algorithm to obfuscate a imputed data. This algorithm can be very simple (like SHA-256) or very hard to crack (like AES). The harder the algorithm is to crack, the more resources it takes to run it.
+
+The use of different encryption algorithms vary according to the case of use. Generally, easier to crack algorithms are used in conjunction with other, more sophisticated algorithm.
