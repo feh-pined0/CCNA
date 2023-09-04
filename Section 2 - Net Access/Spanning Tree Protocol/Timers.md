@@ -1,0 +1,5 @@
+The [[Classic STP|classic]] *Spanning Tree Protocol* defines three timers in which the protocol operates:
+
+- **Hello**: This timer is 2 seconds long by default. It defines the interval in which the root bridge will send hello BPDUs. TODO ADD MORE CONTEXT HERE
+- **Forward Delay**: It defines how long should a switch stay in each [[Port States|transitional state]] before going into forwarding mode. The default is 15 seconds (making the total wait time from listening -> forwarding 30 seconds);
+- **Max Age**: This defines how long should an interface wait for hello BPDUs before changing the mapped topology of STP. It resets every time the switch receives a hello BPDU and, upon reaching zero, the switch reevaluates the STP topology, changing its designated, root and blocking ports. It is 20 seconds by default.
