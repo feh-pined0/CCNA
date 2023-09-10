@@ -34,3 +34,8 @@ spanning-tree mode pvst+
 spanning-tree extend system-id
 spanning-tree vlan 1 priority 24577
 ```
+
+And for configuring root ports:
+
+- `spanning-tree vlan [VID] cost [cost-val]` - defines the advertised [[Root Cost Calculation|root cost]] of the interface on this vlan, on this interface.
+- `spanning-tree vlan [VID] port-priority [prio]` - defines the port priority for this interface. Used to decide the root port in case of a tie between Bridge ID and MAC address.
