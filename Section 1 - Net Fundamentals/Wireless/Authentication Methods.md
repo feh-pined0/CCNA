@@ -20,7 +20,7 @@ The 802.1x standard defines rules for limiting the access to the network (LAN or
 
 ## EAP (Extensible Authentication Protocol)
 
-To understand the following authentication protocols, knowledge of EAP is required. This is a authentication **framework**, which defines functions that other protocols can expand on to implement authentication methods. It operates following the 802.1x standard, so any implementation of EAP is required to have those three entities (supplicant, authentication and authentication server).
+To understand the following authentication protocols, knowledge of EAP is required. This is a authentication **framework**, which defines functions that other protocols can expand on to implement authentication methods. It operates following the 802.1x standard, so any implementation of EAP is required to have those three entities (supplicant, authenticator and authentication server).
 
 - **LEAP** (*Lightweight EAP*): developed by Cisco, it is an improvement for WEP. In this method, both the client and server send challenge phrases to each other, in order to authenticate. The client authenticates using a username and a password, and the WEP keys used for encryption are changed frequently (this feature is called dynamic WEP keys);
 ![[Pasted image 20230821165355.png]]
@@ -35,7 +35,7 @@ To understand the following authentication protocols, knowledge of EAP is requir
 
 After authenticating the station, data exchanged between the client and the server **needs** to be encrypted in order to keep the connection safe in the wireless media. For this, different methods were applied.
 
-- **TKIP** (*Temporal Key Integrity Protocol*): TKIP uses the same methods of WEP for encryption (shared key secret), but it adds more features on top of it, because WEP were considered to be very insecure (even at the beginning):
+- **TKIP** (*Temporal Key Integrity Protocol*): TKIP uses the same methods of WEP for encryption (shared key secret), but it adds more features on top of it, because WEP was considered to be very insecure (even at the beginning):
 	- A [[Digital Signatures and Data Integrity|MIC]] (*Message Integrity Check*) is appended to messages in order for the peers to check for the integrity of the message;
 	- A key mixing algorithm is used to generate a new key to encrypt every frame;
 	- The IV length increased from 24 to 48 bits;

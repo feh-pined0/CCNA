@@ -1,0 +1,3 @@
+*Terminal Access Controller Access Control System Plus* is a Cisco developed (but not proprietary) AAA protocol. It is very similar to [[RADIUS]], although it was created later and has more robust authentication and authorization.
+
+Also, while RADIUS support only encryption of the password on data traffic (leaving things like username in clear text), TACACS+ supports the encryption of the whole packet.

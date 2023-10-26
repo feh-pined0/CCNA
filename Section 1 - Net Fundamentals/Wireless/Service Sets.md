@@ -23,5 +23,5 @@ Some implementations of these types of service sets are:
 
 The following 802.11 standards are defined:
 
-![[Pasted image 20230823160644.png]]
+![[Pasted image 20231024143928.png]]
 
