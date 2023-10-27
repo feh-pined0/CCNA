@@ -31,7 +31,7 @@ Also, when the root port fails, the alternate port does not go through the learn
 
 ## Timers
 
-Rapid PVST has much shorter timers than regular STP. Because of its many functions, an interface rarely has to wait timers to transition states, but when they do, the [[Timers|max age timer]] is reduced from **10 hello intervals** (a hello interval is still 2 seconds, so $2*10=20$ seconds) to **3 hello intervals** ($2*3=6$ seconds);
+Rapid PVST has much shorter timers than regular STP. Because of its many functions, an interface rarely has to wait timers to transition states, but when they do, the [[Section 2 - Net Access/Spanning Tree Protocol/Timers|max age timer]] is reduced from **10 hello intervals** (a hello interval is still 2 seconds, so $2*10=20$ seconds) to **3 hello intervals** ($2*3=6$ seconds);
 
 ## Link Types
 
