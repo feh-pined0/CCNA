@@ -1,4 +1,4 @@
-IPv4 addresses were the first kind of network addresses distributed for public use. At the time it was created, the internet was not as big as it is today, as in there was not so many devices that connect to the internet. So, as networks got bigger, network addresses started to run out.
+ IPv4 addresses were the first kind of network addresses distributed for public use. At the time it was created, the internet was not as big as it is today, as in there was not so many devices that connect to the internet. So, as networks got bigger, network addresses started to run out.
 
 IPv4 addresses consists of four bytes or four octets (8 bits). If we calculate that, we get $2^{32}$ IP addresses, which seems like a lot, but it is actually not that much. By 1996, IPv4 addresses already were found to be scarce. To remedy that, [RFC 1918](https://datatracker.ietf.org/doc/html/rfc1918) defined private IPv4 address ranges.
 

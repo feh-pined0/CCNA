@@ -16,7 +16,7 @@ The process of negotiation is as follows:
 - Each remaining switch selects **one** of it's interfaces to be the **Root Port**. This is the interface with the lowest [[Root Cost Calculation|Root Cost]].
 	- The Root Port of each switch will be on a forwarding state.
 - Finally, each layer 2 collision domain **should have one designated port**.
-	- Each switch connected directly to the Root Bridge have the bridge interface as the designated port of the collision domain;
+	- Each switch connected directly to the Root Bridge have the bridge interface as the root port of the switch;
 	- Each switch connected to a end host has that interface as a designated port (as end hosts do not participate in STP);
 	- Each switch connected to another switch in the Spanning Tree decide the designated port based on the lowest root cost between the two (**the lowest root cost of the switch, not the port being decided on**). If that is a tie between the two switches, the one with the lowest Bridge ID gets chosen and it's interface becomes designated, and the other one gets put **in a blocking state**.
 		- Ports in a blocking state do not forward packets.
