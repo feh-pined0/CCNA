@@ -11,6 +11,15 @@ R1(config-if)# ip nat inside
 R1(config)# ip nat inside source static 192.168.0.143 203.0.54.1
 ```
 
+- `ip nat inside source list <access-list> [pool <pool-name> | interface <interface>] [overload]` - defines a dynamic translation rule, which translates packets to either one IP from the defined IP NAT pool or the IP of an interface.
+	- Can be read as: "translate the IPs in this access-list to any IP of this pool" or "translate the IPs in this access-list to the IP of this interface";
+	- The `overload` keyword causes the rule to translate the IPs even if the pool is exhausted, in which case it will append a auto-generated [[Address Overload|layer 4 port number to track the flow]];
+```IOS
+R1(config)# ip nat pool default-pool 100.0.0.1 100.0.0.5 netmask 255.255.255.0
+R1(config)# access-list 1 permit 192.168.0.0 0.0.0.255
+R1(config)# ip nat inside source list 1 pool default-pool overload
+```
+
 - `show ip nat translations` - displays information about NAT translations on the device (static and dynamic).
 ```IOS
 R1# show ip nat translations
