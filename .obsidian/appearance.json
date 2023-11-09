@@ -1,5 +1,8 @@
 {
   "accentColor": "#ff70cb",
   "baseFontSize": 14,
-  "cssTheme": "ITS Theme"
+  "cssTheme": "Obsidianite",
+  "enabledCssSnippets": [
+    "tables"
+  ]
 }
