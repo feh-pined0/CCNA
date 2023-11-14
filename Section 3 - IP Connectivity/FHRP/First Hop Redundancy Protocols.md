@@ -1,6 +1,6 @@
 Imagine the following network topology:
 
-![[image-removebg-preview(1).png]]
+![[FHRP_Topology.png]]
 
 This is a simple, nice and redundant network topology: it has nice layer 2 redundancy, thanks to [[Classic STP|spanning-tree]] and two internet links: **R1** and **R2**.
 

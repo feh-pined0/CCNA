@@ -1,0 +1,1 @@
+*Reconnaissance* attacks focus on gathering information about a organization or a target in order to perform other attacks. The information gathered usually is public, and can be obtained from sources like DNS servers (for example, Windows' `nslookup`) or [[X.509 certificate|public digital certificates]].
