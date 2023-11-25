@@ -1,0 +1,7 @@
+*Representational State Transfer Application Programming Interface* is a framework for developing and using APIs. It is based on the use of **CRUD** operations and defines some required points that an implementation should have:
+
+- **Client-Server Model**: a REST API should be based on the client-server model, where a server holds a resource (that can be a text file, some information, etc) and a client access it using a established means;
+- **Uniform Interface**: implementations should use a standard, normalized protocol for data exchange between server and client. All requests and responses should use this format. The most commonly used for REST APIs is HTTP(S).
+- **Stateless**: each API call should be completely independent from another. This means that one API call should not define what happens to another call;
+- **Layered System**: API calls should not be constructed as to fulfill any requirements that a intermediate host or server may introduce. The API call and it's contents should only be addressed to and from the client and server. Additional layers should not affect the client-server interaction;
+- **Cacheable**: contents of an API call should be marked as cacheable if it can be cached. This prevents unnecessary traffic flows;
