@@ -28,7 +28,7 @@ Different methods can be used to manage a queue in order to prevent overflows an
 
 The process for classification determines which traffic ends up in which queue, and then a second algorithm is used to *prioritize* queues when using the physical bus. These can be:
 
-- **CBWFQ** (Class-Based Weighted Fair Queuing): this method consists in cycling through each queue in order, but reserving a percentage of the physical bus' [[Network Resources|bandwidth]] to more important queues, sending more data from the higher priority ones (each queue gets its turn, but higher priority consumes more time and resources of the forwarding device).
+- **CBWFQ** (*Class-Based Weighted Fair Queuing*): this method consists in cycling through each queue in order, but reserving a percentage of the physical bus' [[Network Resources|bandwidth]] to more important queues, sending more data from the higher priority ones (each queue gets its turn, but higher priority consumes more time and resources of the forwarding device).
 ![[Pasted image 20231108174454.png]]
 
 - **LLQ** (Low Latency Queuing): this method is more aggressive but it greatly reduces network resources variation, resulting in lower latency and jitter. It consists of assigning a **strict priority queue** from which packets are **always** sent first. Other queues will idle until the strict priority one is empty. This can cause problems if the strict queue is always active, but it can be resolved with **interface bandwidth policing**.

@@ -1,5 +1,5 @@
 The *User Datagram Protocol* is a connection-less layer 4 (transport) protocol that aims to provide host-to-host communication. Unlike [[TCP]], UDP tries to be as concise as possible, only sending the application layer's data and nothing else. This means that UDP does not check for sequencing, data integrity, sessions (although it uses ports to track which data comes from which application) and deliver assurance. Here is a UDP datagram header example:
 
-![[Pasted image 20230802162218.png]]
+![[UDP_Header.png]]
 
 As you can see, it is much simpler, only having the source and destination ports, length and checksum of data. UDP is considered a non-reliable transport protocol and is not used in situations where data integrity is required. With that said, it has a much lower latency and higher speed than it's counterparts, due to it's simplicity.

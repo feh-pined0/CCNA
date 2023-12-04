@@ -6,7 +6,7 @@ There are seven syslog message severity levels defined by the original RFC stand
 - **4 - Warning**: conditions that may or may not impact on some feature's operation;
 - **3 - Error**: conditions that can be unexpected and impact on the device's operation;
 - **2 - Critical**: conditions that most likely are not expected and can cause problems;
-- **1 - Alert**: conditions that require imediate action;
+- **1 - Alert**: conditions that require immediate action;
 - **0 - Emergency**: conditions that render the entire system unusable;
 
 ![[Pasted image 20231106174804.png]]

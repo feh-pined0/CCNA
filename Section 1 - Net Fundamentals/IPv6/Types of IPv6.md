@@ -53,7 +53,7 @@ Also, IPv6 multicast have a feature called scopes. This defines the "distance" a
 - Global (**not on CCNA exam scope**): can be forwarded on the internet (although it will not hit every single node on the internet). Network prefix is `FF0E::/16`;
 
 Here is an image to illustrate that:
-![[Pasted image 20230815163828.png]]
+![[Multicast_Scopes.png]]
 
 ## Anycast
 
