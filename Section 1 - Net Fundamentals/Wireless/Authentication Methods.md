@@ -23,10 +23,10 @@ The 802.1x standard defines rules for limiting the access to the network (LAN or
 To understand the following authentication protocols, knowledge of EAP is required. This is a authentication **framework**, which defines functions that other protocols can expand on to implement authentication methods. It operates following the 802.1x standard, so any implementation of EAP is required to have those three entities (supplicant, authenticator and authentication server).
 
 - **LEAP** (*Lightweight EAP*): developed by Cisco, it is an improvement for WEP. In this method, both the client and server send challenge phrases to each other, in order to authenticate. The client authenticates using a username and a password, and the WEP keys used for encryption are changed frequently (this feature is called dynamic WEP keys);
-![[Pasted image 20230821165355.png]]
+![[AAA Server Wireless Auth.png]]
 
 - **EAP-FAST** (*EAP Flexible Authentication via Secure Tunneling* \[*TLS*\]): also developed by Cisco, EAP-FAST uses TLS to establish a secure tunnel between server and client, and then provides authentication via one of it's supported flows (like MS-CHAP or OTP). To form the tunnel, a **PAC** (*Protected Access Credential*) is provided for the client (this is called *PAC Provisioning*);
-![[Pasted image 20230821173511.png]]
+![[AAA Server Wireless PAC Auth Over TLS.png]]
 
 - **PEAP** (*Protected EAP*): this is almost the same as as EAP-FAST, but instead of using PACs to provide a TLS tunnel (with shared keys), the server uses a digital certificate to form this TLS tunnel (kinda like HTTPS). It is also developed by Cisco, in conjunction with Microsoft (the image is the same as above, changing PAC -> Digital Certificate);
 - **EAP-TLS**: it is almost the same as PEAP, but instead of only the server presenting it's digital certificate, the client needs to authenticate using it's certificate too. This is by far the most secure method of authentication, but it is also the most difficult to implement. Also, because the client presents it's certificate, it does not need to authenticate once the TLS tunnel is formed.

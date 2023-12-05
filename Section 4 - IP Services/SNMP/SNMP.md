@@ -12,7 +12,7 @@ The SNMP framework works by storing data on a database called **MIB** (Managemen
 
 Here is an example of a NMS -> Managed device structure:
 
-![[Pasted image 20231106155101.png]]
+![[SNMP Topology.png]]
 
 >Here, each managed device runs an instance of the SNMP Agent - a software that interacts with the MIB and the SNMP Manager.
 >The NMS runs the SNMP Manager, which queries information and receive updates from the SNMP Agents, and then displays it using an SNMP application, like [Solarwinds](https://www.solarwinds.com) for example.

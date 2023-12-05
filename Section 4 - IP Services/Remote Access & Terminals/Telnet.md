@@ -5,5 +5,5 @@ Telnet does not have encryption. This is because it is a very old protocol. By t
 Telnet servers listen to connections on port **TCP/23**.
 
 >Here is an example telnet packet capture.
->![[Pasted image 20231107152650.png]]
+>![[Example Telnet Message.png]]
 

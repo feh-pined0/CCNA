@@ -11,5 +11,5 @@ Ansible works by defining a set of:
 
 As Ansible uses SSH, it's used port for managing devices is **TCP/22**.
 
-![[Pasted image 20231125145204.png]]
+![[Ansible Topology.png]]
 

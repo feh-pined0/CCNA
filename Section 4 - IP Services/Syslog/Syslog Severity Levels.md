@@ -9,5 +9,5 @@ There are seven syslog message severity levels defined by the original RFC stand
 - **1 - Alert**: conditions that require immediate action;
 - **0 - Emergency**: conditions that render the entire system unusable;
 
-![[Pasted image 20231106174804.png]]
+![[Syslog Messages Severity Levels.png]]
 

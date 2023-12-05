@@ -4,7 +4,7 @@ There are multiple [[Types of NAT|types of NAT]], which can be used depending on
 
 For the purposes of translation, NAT defines some terms to differentiate types of IPs (refer to the image):
 
-![[Pasted image 20231030201523.png]]
+![[NAT Inside & Outside Networks.png]]
 
 - **Inside Local**: the IP of a host on the inside network from the "perspective" of an inside interface (in this example, R1's `192.168.0.1` interface).
 	- In this example, one inside local address would be `192.168.0.167` (PC1 interface);

@@ -2,7 +2,7 @@ This feature allows for a bridge to automatically move from a blocking state to 
 
 Refer to this example:
 
-![[Pasted image 20230910173604.png]]
+![[Misinterpreted STP Device Failure.png]]
 
 Here, SW2 lost connectivity to SW1 (the root bridge). It then assumes it is the root bridge (because it does not receive any more BPDUs) and starts sending its own BPDUs.
 

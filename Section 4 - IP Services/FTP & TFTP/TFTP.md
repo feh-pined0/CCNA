@@ -14,5 +14,5 @@ TFTP provides a "connection" between peers using the following structure:
 	- If the client does not send an ACK, the server will not send the next data block;
 	- After some time, if the client does not receive the next data block, it will assume the previous ACK did not arrive and will send another one;
 
-![[Pasted image 20231109142851.png]]
+![[Example TFTP Transfer.png]]
 

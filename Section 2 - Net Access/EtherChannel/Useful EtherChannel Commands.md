@@ -1,8 +1,8 @@
 - `show etherchannel summary` - displays a summary with etherchannel information, such as link status, groups, etc:
-![[Pasted image 20230903151258.png]]
+![[Show Etherchannel Summary.png]]
 
 - `show etherchannel port-channel` - displays information about the ports bundled on an etherchannel group. It is useful to check which protocol mode the port-channel is using:
-![[Pasted image 20230903151732.png]]
+![[Show Etherchannel Port-Channel Example.png]]
 
 - `port-channel load-balance [mode]` - defines which load-balancing strategy should be used when forwarding EtherChannel frames through physical links:
 ```IOS

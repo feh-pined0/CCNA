@@ -7,5 +7,5 @@ Configuration of network devices using HTTP nowadays is much more common and pre
 To configure a device through HTTP or HTTPS, a web browser is opened on a client and the [[IPv4 Addressing|IP address]] of the device is searched (HTTP uses port TCP/80 and HTTPS uses TCP/443). A web portal is then presented, usually requiring login credentials. After that, configurations can be applied using a graphical interface.
 
 > Example of a configuration GUI from a network device:
-> ![[Pasted image 20230910215127.png]]
+> ![[Cisco Device HTTP Management.png]]
 

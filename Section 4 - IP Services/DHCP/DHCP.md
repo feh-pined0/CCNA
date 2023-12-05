@@ -21,5 +21,5 @@ The main process of a DHCP lease provision is as follows:
 
 Here is an example of this process:
 
-![[Pasted image 20231103181538.png]]
+![[Example DHCP Request.png]]
 

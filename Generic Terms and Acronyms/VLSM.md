@@ -2,5 +2,5 @@
 
 Here is an [example](http://www.dltec.com.br/blog/redes/vlsm-conceitos-e-exemplo-para-o-ccna/) that demonstrate how it works (link in Portuguese/Brazil).
 
->![[Pasted image 20230919175238.png]]
+>![[VLSM Assignment Steps.png]]
 

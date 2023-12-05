@@ -11,5 +11,5 @@ NTP clients can also work as NTP servers, polling the time from one server, and 
 NTP servers higher then stratum 1 can also connect to each other on the same stratum to get a more precise time and date. These servers can operate in **server mode**, **client mode** and **symmetric active mode** (or all three at the same time).
 
 > Example hierarchy of NTP servers:
-> ![[Pasted image 20231031212630.png]]
+> ![[NTP Servers Stratum Levels.png]]
 

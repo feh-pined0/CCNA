@@ -12,4 +12,4 @@ A connection to a network device using SSH or Telnet can be made using a popular
 - Type in the device's IP address;
 - Click "Open";
 
-![[Pasted image 20230911141215.png]]
+![[Linux Virtual Teletype Configuration 2.png]]

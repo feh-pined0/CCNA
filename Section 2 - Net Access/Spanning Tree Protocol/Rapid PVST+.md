@@ -8,14 +8,14 @@ Rapid PVST is very similar to regular STP, but the following differences apply:
 
 The Rapid PVST [[Root Cost Calculation|root cost calculation]] uses the following values:
 
-![[Pasted image 20230910170810.png]]
+![[Rapid STP Interface Cost.png]]
 
 ## Port States
 
 Instead of having five port states, Rapid PVST uses only three: **Discarding**, **Learning** and **Forwarding**.
 
 > The discarding state combines the blocking, disabled and listening states into one:
-> ![[Pasted image 20230910171108.png]]
+> ![[Rapid STP Port States.png]]
 
 ## Port Roles
 
@@ -25,7 +25,7 @@ All port roles (Root Port and Designated Port) remain unchanged (both in the fun
 - **Backup Port**: this port is also in a **discarding state**. It is assigned this role when a port receives a [[Superior BPDU|superior BPDU]] from another port on the same switch.
 
 > Refer to this image as an example of a backup and alternate port (the device in the middle is a HUB):
-> ![[Pasted image 20230910172209.png]]
+> ![[Rapid STP Backup Port Selection.png]]
 
 Also, when the root port fails, the alternate port does not go through the learning state, it moves directly to the forwarding state. The switch also cleans the MAC address table of all the entries that came from the former root port (as those MAC addresses cannot be reached through that interface anymore). This function is called **UplinkFast**. It was present in classic STP and is built in Rapid PVST.
 

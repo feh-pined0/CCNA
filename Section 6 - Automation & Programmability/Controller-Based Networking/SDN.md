@@ -13,11 +13,11 @@ To accomplish this, controllers use two groups of APIs: **Southbound** and **Nor
 
 *Southbound APIs* are communication channels between the controller and the devices they control. These APIs are exposed on modern devices and provide two things: **information about the device** and **a means to configure it** (kind of like [[SNMP Message Types|SNMP Set messages]]).
 
-![[Pasted image 20231123202110.png]]
+![[Network Control Plane Centralization API.png]]
 
 ## Northbound APIs
 
 *Northbound APIs* are communication channels between a **network-admin-facing application** (such as a control panel) **and the controller**. It is through this API that network admins can easily deploy network configurations, manage devices and gather information about the network (usually this is called a **single pane-of-glass**). More experienced professionals can develop their own applications to interact with this API, further increasing the degree of automation that the network has.
 
-![[Pasted image 20231123202429.png]]
+![[Network Controller NBI API.png]]
 

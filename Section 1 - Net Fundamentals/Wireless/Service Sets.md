@@ -15,13 +15,13 @@ Some implementations of these types of service sets are:
   In the definition there is also the BSA (Basic Service Area), which denotes the active radio frequency area in which the AP provides network connectivity;
 - **ESS** (*Extended Service Set*): here multiple APs are connected by a wired network. Each AP forms a BSS, which all share the same SSID. BSSs use different RF channels to avoid interference and each BSS have its BSSID. This configuration allows for all APs to appear as a single entity for clients, thus enabling seamless and transparent wireless networks (this is called **roaming**). The following image ilustrates this topology:
 
-    ![[Pasted image 20230817202904.png]]
+    ![[Extended Service-Set.png]]
     
 - **MBSS** (*Mesh Basic Service Set*): here multiple APs (**MAPs** *Mesh Access Points*) connect to each other directly, forming a "mesh" of wireless connectivity. This mesh is then connected by a single AP (the **RAP** *Root Access Point*) to a wired network which serves as the backbone of the wireless net. APs in mesh networking need to have at least two radios: one to connect to end clients, and one to connect to the mesh.
     
-    ![[Pasted image 20230817203342.png]]
+    ![[Wireless Mesh.png]]
 
 The following 802.11 standards are defined:
 
-![[Pasted image 20231024143928.png]]
+![[Wireless Standards.png]]
 

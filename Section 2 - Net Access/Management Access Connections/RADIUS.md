@@ -4,5 +4,5 @@ RADIUS is also called an AAA server (it stands for Authentication, Authorization
 
 The RADIUS server is used so that networks can comply with the [[Authentication Methods|802.1x]] standard, where it acts as the authentication server (*AS*).
 
-![[Pasted image 20230911142148.png]]
+![[Radius Server Topology.png]]
 

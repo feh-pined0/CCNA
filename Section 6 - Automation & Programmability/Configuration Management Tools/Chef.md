@@ -13,5 +13,5 @@ Chef listens on **TCP/10002** for client devices to pull configurations from.
 
 Chef uses [[REST APIs]] to communicate between server and agents.
 
-![[Pasted image 20231125151446.png]]
+![[CHEF Topology.png]]
 

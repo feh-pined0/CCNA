@@ -8,7 +8,7 @@ The process of negotiation is as follows:
 
 - For any STP instance, a **Root Bridge** (or Root Switch) needs to be elected. For this, switches broadcast their **Bridge ID** using BPDU frames.
 > A Bridge ID consists of 16 bits (2 bytes): **4 priority bits** and **12 *Extended System ID* bits** (which is just the [[802.1Q Header|VID]] of the interface).
-> ![[Pasted image 20230903185041.png]]
+> ![[STP Bridge ID.png]]
 
 - Switches trade Bridge IDs and elect a Root Bridge based on which one has the lowest one;
 	- In the case of a draw, the switch with the lowest MAC address wins;
@@ -26,4 +26,4 @@ The process of negotiation is as follows:
 > - SW2 and SW3's `G0/1` and `G0/0` become **Root Ports** because they have the lowest **Root Cost** to the Root Bridge.
 > - SW2 and SW3 negotiate the designed port on the `SW2 G0/0` and `SW3 G0/1` collision domain.
 > - Because SW2 has the lowest MAC address, it's `G0/0` port gets designated, and SW3's `G0/1` gets blocked.
->![[Pasted image 20230904142733.png]]
+>![[Classic STP Non-Designated Port Selection.png]]

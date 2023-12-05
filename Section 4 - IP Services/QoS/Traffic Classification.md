@@ -40,7 +40,7 @@ DSCP values are standardized and should be configured in one of the following ca
 	- Drop precedence defines how likely it is for the packet to drop, in the case of congestion;
 	- There are 4 traffic classes in total (`0b001`,`0b010`,`0b011` and `0b100`);
 >Example of AF value:
->![[Pasted image 20231108170846.png]]
+>![[QoS DSCP Calculation.png]]
 
 - **Class Selector**: also does not have a defined value, this class is a backward compatibility tool. Only the 3 most significant bits are used. Values range from 0 to 8 (similar to PCP);
 

@@ -14,7 +14,7 @@ Because of this, metrics from two different protocols cannot be compared, and an
 
 The *AD* is a pre-defined value that gets assigned to a route based on the **source routing protocol that defined that route**. This is based on which protocol is more modern and reliable:
 
->![[Pasted image 20230918215241.png]]
+>![[Dynamic Routing Protocol ADs.png]]
 
 Using the example from before, the OSPF route would be included in the routing table, and the RIP route would be discarded, because OSPF's AD is lower than RIP's AD.
 

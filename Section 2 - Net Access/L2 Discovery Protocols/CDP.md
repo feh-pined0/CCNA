@@ -12,5 +12,5 @@ CDP messages are not forwarded and are discarded by the receiving end no matter 
 
 Here is an example of the `show cdp neighbors` command output:
 
-![[Pasted image 20230831152711.png]]
+![[Show CDP Neighbors Example.png]]
 

@@ -6,11 +6,11 @@ When going through the process of building the switch MAC address table, the dev
 
 For example, this switch (*SW1*) have an empty CAM table:
 
-![[Pasted image 20230822213328.png]]
+![[Example CAM Table.png]]
 
 When generating traffic from *PC0* to *PC2*, it is notable that the switch appends the frame's information to it's MAC address table:
 
-![[Pasted image 20230822213644.png]]
+![[Example ARP CAM Table Update 2.png]]
 
 > Note that first line in the frame description: "The frame source MAC address does not exist in the MAC table of Switch. Switch adds a new MAC entry to its table."
 

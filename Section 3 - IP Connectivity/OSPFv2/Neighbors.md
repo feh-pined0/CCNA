@@ -22,8 +22,8 @@ OSPF enabled routers will try to form a neighbor relationship with another route
 
 Here is the summary of the process:
 
-![[Pasted image 20231026162338.png]]
-![[Pasted image 20231026162303.png]]
+![[OSPF Neighbor Forming Steps.png]]
+![[OSPF Neighbor Adjancency Steps.png]]
 
 # Requirements
 

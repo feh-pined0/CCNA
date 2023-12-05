@@ -1,4 +1,4 @@
 A trust boundary defines devices or interfaces in which a switching or routing device will trust the QoS markings. A PDU received on a trust boundary will have it's QoS marking rewritten, either to a default value or a predefined value.
 
-![[Pasted image 20231108173446.png]]
+![[QoS Trust Boundary.png]]
 

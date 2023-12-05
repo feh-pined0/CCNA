@@ -5,7 +5,7 @@ SSH has two major revisions: **v1** and **v2**. On Cisco devices, when support f
 The protocol relies on cryptographic keys to provide security features. Usually, [[Asymmetric Key Pairs|asymmetric keys]] are used.
 
 >Here is an example SSH packet capture:
->![[Pasted image 20231107161014.png]]
+>![[Example SSH Message.png]]
 
 SSH uses port **TCP/22** for the server.
 

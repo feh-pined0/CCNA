@@ -11,5 +11,5 @@ IPSec is a site-to-site VPN technology that **encrypts IP packets and payloads b
 
 IPSec only supports unicast packets, so layer 3 multicast and broadcast packets will not be forwarded through the tunnel (making the usage of technologies like OSPF impossible over IPSec). However, this can be accomplished by using **GRE over IPSec** (*Generic Routing Encapsulation over IPSec*). GRE encapsulates the IP packets with a GRE header and IP header, and then IPSec further encapsulates this payload with a VPN header and IP header, to forward it through the tunnel.
 
-![[Pasted image 20231122163154.png]]
+![[IPSec Packet.png]]
 

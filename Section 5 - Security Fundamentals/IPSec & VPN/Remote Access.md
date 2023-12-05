@@ -6,5 +6,5 @@ The process is generally as follows:
 2. Once authenticated, a VPN tunnel will form between the specific device and the VPN server;
 3. The device's tunnel virtual interface will behave like an interface connected to the private network;
 
-![[Pasted image 20231122172213.png]]
+![[Client VPN Tunnel.png]]
 

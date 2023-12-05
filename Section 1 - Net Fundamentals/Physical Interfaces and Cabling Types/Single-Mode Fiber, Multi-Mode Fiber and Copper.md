@@ -28,7 +28,7 @@ Fiber is a relatively new type of media that is arriving at the consumer through
 
 For multi-mode fiber, the core can take a diameter of up to 50 microns. It's called "multi-mode" because light bounces inside the core, reflecting through the path in many modes to arrive at the other endpoint. Because of this, multi-mode fiber has less speed and higher attenuation than single mode fiber.
 
-![[Types_of_Fiber.png]]
+![[Types of Fiber.png]]
 
 Single mode fiber's core is no wider than 9 microns, and can be as wide as 5 microns. This is because in this cable the light must traverse through the path in only one mode. This means that the light does not bounce inside the core and travel in a straight line across it, making it much faster and reducing attenuation.
 
@@ -45,4 +45,4 @@ For single mode fiber, the speed standards are the following:
 
 For multi-mode fiber, the speeds and distances depends on the cable grade, as described in this table:
 
-![[Fiber_Specifications.png]]
+![[Fiber Specifications.png]]

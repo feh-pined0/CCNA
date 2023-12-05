@@ -2,7 +2,7 @@ Each wireless [[RF Bands|band]] is divided in multiple channels. Devices are con
 
 The 2.4 GHz standard divides the band into 14 channels:
 
-![[Wireless_2.4GHz_Channels.png]]
+![[Wireless 2.4GHz Channels.png]]
 
 Note that some channel frequencies overlap with each other. This can cause interference, even when using different channels to transmit data.
 
@@ -10,6 +10,6 @@ Note that some channel frequencies overlap with each other. This can cause inter
 
 Also, when deploying 2.4 GHz networks, the position of the access points should make so that channels do not overlap with each other. The recommendation is to use a "honeycomb" pattern, like so:
 
-![[Wireless_Honeycomb_Design_Pattern.png]]
+![[Wireless Honeycomb Design Pattern.png]]
 
 It is also essential to correctly measure signal range to make sure that the spacing between channels is correct and non overlapping.

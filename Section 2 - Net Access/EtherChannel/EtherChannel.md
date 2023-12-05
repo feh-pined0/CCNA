@@ -8,7 +8,7 @@ This has many benefits:
 
 EtherChannel is denoted in network diagrams as a circle, encapsulating the physical links:
 
-![[Pasted image 20230903142350.png]]
+![[Etherchannel Topology.png]]
 
 Additional notes:
 

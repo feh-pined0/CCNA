@@ -17,7 +17,7 @@ There are some rules when defining OSPF areas:
 
 - OSPF areas should be *contiguous*. This means that the same area must not be divided into multiple segments, but should be coupled together.
 >This is an example of a non-contiguous OSPF area 1:
->![[Pasted image 20231024162957.png]]
+>![[OSPF Areas.png]]
 >In this case, the "second" area 1 should be another area entirely.
 
 - All areas **must have** at least one ABR connected to the backbone area (area 0);

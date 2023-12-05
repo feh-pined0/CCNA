@@ -11,5 +11,5 @@ There are many aspects of networking and network management that can be automate
 Automation can be implemented in various aspects of networking. Newer devices have APIs that allow them to communicate with many other devices, scripts can be created to automate simple tasks, etc.
 
 > Python script to configure multiple routers at once.
-> ![[Pasted image 20231123164719.png]]
+> ![[Network Automation With Scripts.png]]
 

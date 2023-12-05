@@ -4,7 +4,7 @@ Not only does traditional networking take more time and effort to create and mai
 
 Although traditional network configuration methods provide more fine-grained configurations, a **controller-based network** provides homogeneous configuration across the network, easy to use and integrate interfaces and separation and centralization of the [[Control, Data and Management Planes|control plane]] of the network.
 
-![[Pasted image 20231123181953.png]]
+![[Network Control Plane Centralization.png]]
 
 
 

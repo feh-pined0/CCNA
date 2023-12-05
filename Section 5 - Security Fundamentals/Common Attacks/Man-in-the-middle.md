@@ -1,6 +1,6 @@
 With ARP spoofing, an attacker can trick a device into "thinking" it has the correct IP -> MAC relation on it's table, while in reality the MAC address for the IP is replaced by the attacker's MAC. Then, while in the same broadcast domain, any packets sent from the targeted device to the spoofed device will actually go to the attacker's device, as shown in the figure below:
 
-![[Pasted image 20231113155526.png]]
+![[ARP Poisoning.png]]
 
 The spoofing occurs on the reply of the ARP request. The process is as follow:
 

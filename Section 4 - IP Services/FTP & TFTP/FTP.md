@@ -9,7 +9,7 @@ Because FTP uses different ports for commands and actual data transfer, a new TC
 
 Passive mode is necessary because things like [[NGFW and IPS (Firewall)|firewalls]] and [[NAT]] can make so that outbound to inside requests are negated or lost, making it impossible for the server to start the transfer.
 
-![[Pasted image 20231109144106.png]]
+![[Example FTP Connection and Transfer.png]]
 
 FTP also has a newer version (**FTPS** - File Transfer Protocol Secure), which transfer files over TLS for payload encryption.
 

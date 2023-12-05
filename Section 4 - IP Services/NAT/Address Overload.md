@@ -4,7 +4,7 @@ The method consists of translating multiple source addresses to the same public 
 
 Refer to this example:
 
-![[Pasted image 20231031174816.png]]
+![[NAT Overload Example.png]]
 
 > If `PC1` and `PC2` selected the same random source port, `R1` would generate a different port to one of the two packets and append that to the translated address, so that both packets have different port addresses and could be distinguished from each other, even when using the same IP address.
 

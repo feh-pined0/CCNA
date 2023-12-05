@@ -2,7 +2,7 @@
 
 Here is an example of a DNS query:
 
-![[Pasted image 20231101204818.png]]
+![[Example DNS Query.png]]
 
 It is not common to have a DNS server on the LAN. Usually, [[DHCP|DHCP servers]] will advertise DNS servers that reside somewhere on the WAN (such as public DNS servers, like google's `8.8.8.8`).
 

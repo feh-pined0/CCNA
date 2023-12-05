@@ -12,4 +12,4 @@ It consists on the following rules:
 
 Bellow is an example of this process:
 
-![[Switching-Logic-1.gif]]
+![[Switching Logic 1.gif]]

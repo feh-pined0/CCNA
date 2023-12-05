@@ -8,6 +8,6 @@
 
 Here is an example of a digital certificate:
 
-![[Pasted image 20231113171053.png]]
+![[Digital Certificate.png]]
 
 This certificate was signed by Google for Google. But the Google CA's certificate was signed by a globally trusted CA Root (GlobalSign Root CA). This categorizes a **Certificate Chain**.

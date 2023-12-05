@@ -13,5 +13,5 @@ These HTTP verbs have almost a direct connection to CRUD and it's because of thi
 
 For example, here is a description for accessing a resource on the northbound API of a Cisco DNA Center application:
 
-![[Pasted image 20231123220407.png]]
+![[Example REST API GET Message.png]]
 

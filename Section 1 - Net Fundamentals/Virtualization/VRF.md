@@ -2,7 +2,7 @@
 
 This can be used to provide traffic isolation from multiple networks. It operates like a switch with multiple VLANs, but instead of splitting the network into multiple broadcast domains (layer 2) it splits the router into multiple routing tables.
 
-![[Pasted image 20230822205139.png]]
+![[Virtual Routing and Forwarding.png]]
 
 Note that, because the router was split into multiple virtual devices, it is totally possible to assign the same addresses to different interfaces, as long as they reside in a different VRF within the router.
 

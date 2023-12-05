@@ -10,4 +10,4 @@ Virtualization can occur in various forms:
 - Type 2 Hypervisor Virtualization: this is more common to use with non mission-critical applications. Here, the hypervisor is installed on top of a OS that is already on top of the bare hardware;
 - [[Containers]]: this is a special type. Containers are a OS-level virtualization, meaning that only the OS is virtual, as opposed to other VMs that virtualize hardware and kernel too. This means that containers are far more compact and portable than VMs. The basic premise for container operation is that, instead of virtualizing the entire OS, the container uses the host OS to make system calls, and virtualize only trivial stuff such as file system and networking.
 
-![[Pasted image 20230822184020.png]]
+![[VMs & Containers.png]]

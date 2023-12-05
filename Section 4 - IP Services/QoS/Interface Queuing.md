@@ -4,7 +4,7 @@ When traffic arrives at a device and needs to be forwarded, it gets placed in a 
 
 In Cisco devices, these queues are handled in a FIFO (First In, First Out) manner by default, meaning that packets that arrived first should be forwarded first, no priority. This can be observed on an interface basis (each interface has it's queue):
 
-![[Pasted image 20231107205753.png]]
+![[Interface Queuing Strategy Display.png]]
 
 ## Queue Overflow
 
@@ -24,19 +24,19 @@ These TCP sessions will continuously do this in a synchronized manner (thus the 
 
 Different methods can be used to manage a queue in order to prevent overflows and congestion. Generally, an interface will have multiple queues that share the same physical bus. These queues will take turns using the physical bus to send traffic, and these "turns" are managed by a scheduler.
 
-![[Pasted image 20231108173830.png]]
+![[QoS Queuing Diagram.png]]
 
 The process for classification determines which traffic ends up in which queue, and then a second algorithm is used to *prioritize* queues when using the physical bus. These can be:
 
 - **CBWFQ** (*Class-Based Weighted Fair Queuing*): this method consists in cycling through each queue in order, but reserving a percentage of the physical bus' [[Network Resources|bandwidth]] to more important queues, sending more data from the higher priority ones (each queue gets its turn, but higher priority consumes more time and resources of the forwarding device).
-![[Pasted image 20231108174454.png]]
+![[QoS Scheduling Priority.png]]
 
 - **LLQ** (Low Latency Queuing): this method is more aggressive but it greatly reduces network resources variation, resulting in lower latency and jitter. It consists of assigning a **strict priority queue** from which packets are **always** sent first. Other queues will idle until the strict priority one is empty. This can cause problems if the strict queue is always active, but it can be resolved with **interface bandwidth policing**.
-![[Pasted image 20231108174936.png]]
+![[QoS Strict Priority Queue.png]]
 
 ## Bandwidth Policing and Shaping
 
 With these methods, a interface can buffer (shaping) or drop (policing) traffic if it exceeds a configured rate.
 
-![[Pasted image 20231108175349.png]]
+![[Device Traffic Policing & Shaping.png]]
 

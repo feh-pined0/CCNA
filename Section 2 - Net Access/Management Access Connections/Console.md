@@ -10,5 +10,5 @@ A connection to a network device using a console port can be made using a popula
 - Type in the serial port name;
 - Click "Open";
 
-![[Pasted image 20230910215915.png]]
+![[Linux Virtual Teletype Configuration.png]]
 

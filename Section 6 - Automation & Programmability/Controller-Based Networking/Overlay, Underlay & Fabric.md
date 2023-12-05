@@ -1,14 +1,14 @@
 
 When deploying Cisco's solutions for campus and office automation, these three terms are used frequently and they define different aspects and parts of the overall network.
 
-![[Pasted image 20231124142612.png]]
+![[Example DNA Center Network Controller.png]]
 
 ## Underlay
 
 The *Underlay* of a [[SDN]] is the part of the network that consists of the physical devices and the connections they make. This is basically the network topology as seen from a physical map.
 
 >The underlay of a network:
->![[Pasted image 20231124142906.png]]
+>![[Network Underlay.png]]
 
 This underlay is a fully routed (usually a [[Spine-Leaf]] architecture) network that provides IP connectivity to other parts of the network, making the use of [[Classic STP|STP]] unnecessary.
 
@@ -25,7 +25,7 @@ A common technology used in the overlay is VXLAN. Because SDNs are usually fully
 
 For example, here is a ethernet frame being transport in the overlay VXLAN by using the physical devices on the underlay. Routing information is provided by LISP running in the overlay network, specifically SW3:
 
-![[Pasted image 20231124150048.png]]
+![[Network Overlay.png]]
 
 ## Fabric
 
